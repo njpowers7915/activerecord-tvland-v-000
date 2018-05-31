@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   
   def genre
-    self.genre
+    genre
   end
   
 end
