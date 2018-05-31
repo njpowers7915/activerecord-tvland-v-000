@@ -6,4 +6,5 @@ class Show < ActiveRecord::Base
   def genre
     self.genre
   end
+  
 end
