@@ -3,8 +3,6 @@ class Show < ActiveRecord::Base
   has_many :characters
   has_many :actors, through: :characters
   attr_accessor :genre
-  def genre
-    genre
-  end
+
   
 end
